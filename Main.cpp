@@ -4,7 +4,8 @@
 #include "CSHA1/SHA1.h"
 #include "CSHA1/SHA1Transmitter.h"
 #include "CSHA1/SHA1Receiver.h"
-
+#include "MD5/MD5Transmitter.h"
+#include "MD5/MD5Receiver.h"
 using namespace std;
 
 
@@ -28,6 +29,24 @@ int main(int argc, TCHAR* argv[])
         cout << "Se logra obtener el mensaje de forma integra" << endl ;
     }else{
         cout << "El mensaje pierde su integridad en la comunicacion" << endl ;
+    }
+
+    cout<<"####    ####    ####    ####"<<endl;
+
+    //Ejemplo de MD5Transmitter
+
+    MD5Transmitter md5T;
+    MD5Receiver md5R;
+
+    string ms = "123456789";
+    string hashMS = md5T.md5(ms);
+    cout<<hashMS<<endl;
+
+    if (md5R.checkIntegrityFromMessage(ms,hashMS)){
+        cout<<"El mensaje se obtuvo de manera integra"<<endl;
+    }
+    else{
+        cout<<"El mensaje ha pedido su integridad"<<endl;
     }
 
 

@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1.cpp
-SHA1.h
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1.h
-
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1.h
+../CSHA1/SHA1.h
 memory.h
 -
 limits.h
@@ -28,39 +24,31 @@ tchar.h
 tchar.h
 -
 
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1Receiver.cpp
-SHA1Receiver.h
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1Receiver.h
-
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1Receiver.h
+../CSHA1/SHA1Receiver.h
 SHA1.h
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1.h
+../CSHA1/SHA1.h
 iostream
 -
 string
 -
 
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1Transmitter.cpp
-SHA1Transmitter.h
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1Transmitter.h
-
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1Transmitter.h
+../CSHA1/SHA1Transmitter.h
 SHA1.h
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1.h
+../CSHA1/SHA1.h
 string
 -
 iostream
 -
 
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/Main.cpp
+C:/Users/jpabl/Documents/GitHub/ChipsAchoy/SHA1-and-MD5/Main.cpp
 iostream
 -
 string
 -
 CSHA1/SHA1.h
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1.h
+C:/Users/jpabl/Documents/GitHub/ChipsAchoy/SHA1-and-MD5/CSHA1/SHA1.h
 CSHA1/SHA1Transmitter.h
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1Transmitter.h
+C:/Users/jpabl/Documents/GitHub/ChipsAchoy/SHA1-and-MD5/CSHA1/SHA1Transmitter.h
 CSHA1/SHA1Receiver.h
-C:/Users/INTEL/Documents/GitHub/SHA1-and-MD5/CSHA1IMP/CSHA1/SHA1Receiver.h
+C:/Users/jpabl/Documents/GitHub/ChipsAchoy/SHA1-and-MD5/CSHA1/SHA1Receiver.h
 
