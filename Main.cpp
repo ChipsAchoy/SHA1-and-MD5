@@ -33,7 +33,9 @@ int main(int argc, TCHAR* argv[])
 
     cout<<"####    ####    ####    ####"<<endl;
 
-    //Ejemplo de MD5Transmitter
+
+    cout<<"MD5:"<<endl;
+    //Ejemplo de MD5
 
     MD5Transmitter md5T;
     MD5Receiver md5R;
